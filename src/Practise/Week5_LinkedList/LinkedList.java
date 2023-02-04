@@ -1,4 +1,4 @@
-package Week5_LinkedList.Practise;
+package Practise.Week5_LinkedList;
 import java.util.Scanner;
 
 public class LinkedList {
@@ -11,14 +11,14 @@ public class LinkedList {
         }
     }
 
-    private static Scanner sc = new Scanner(System.in);
+    private static final Scanner sc = new Scanner(System.in);
 
     public static Node merge(Node head1, Node head2) {
         if (head1 == null)
             return head2;
         if (head2 == null)
             return head1;
-        Node dummy = null, ptr = null;
+        Node dummy, ptr;
         if (head1.val < head2.val){
             dummy = head1;
             ptr = head1;

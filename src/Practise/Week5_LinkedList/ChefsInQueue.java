@@ -1,4 +1,4 @@
-package Week5_LinkedList.Practise;
+package Practise.Week5_LinkedList;
 import java.util.Scanner;
 import java.util.Stack;
 
